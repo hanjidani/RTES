@@ -1,0 +1,3 @@
+/home/hosein/Emb/project/server/WebServer/build/CMakeFiles/WebServer.dir
+/home/hosein/Emb/project/server/WebServer/build/CMakeFiles/edit_cache.dir
+/home/hosein/Emb/project/server/WebServer/build/CMakeFiles/rebuild_cache.dir

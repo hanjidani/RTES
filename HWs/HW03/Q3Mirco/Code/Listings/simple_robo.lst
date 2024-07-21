@@ -1,0 +1,76 @@
+C51 COMPILER V9.60.7.0   SIMPLE_ROBO                                                       07/04/2024 18:30:33 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE SIMPLE_ROBO
+OBJECT MODULE PLACED IN .\Objects\simple_robo.obj
+COMPILER INVOKED BY: C:\Users\hosei\AppData\Local\Keil_v5\C51\BIN\C51.EXE simple_robo.c OPTIMIZE(8,SPEED) BROWSE DEBUG O
+                    -BJECTEXTEND PRINT(.\Listings\simple_robo.lst) TABS(2) OBJECT(.\Objects\simple_robo.obj)
+
+line level    source
+
+   1          #include <REGX51.H>
+   2          sbit Lmotor_P = P2^0;
+   3          sbit Lmotor_N = P2^1;
+   4          sbit Rmotor_P = P2^2;
+   5          sbit Rmotor_N = P2^3;
+   6          
+   7          sbit Left_S = P1^0;
+   8          sbit Right_S = P1^1;
+   9          sbit Front_S = P1^2;
+  10          
+  11          void main(void)
+  12          {
+  13   1        Left_S = 0;
+  14   1        Right_S = 0;
+  15   1        Front_S = 0;
+  16   1      
+  17   1         while(1) 
+  18   1         {
+  19   2          if(Left_S == 1 && Right_S == 0 && Front_S == 0)
+  20   2          {
+  21   3          Lmotor_P = 1;
+  22   3          Lmotor_N = 0;
+  23   3          Rmotor_P = 0;
+  24   3          Rmotor_N = 1;        // RIGHT MOVE
+  25   3          }
+  26   2          else if(Left_S == 0 && Right_S == 1 && Front_S == 0)
+  27   2          {
+  28   3          Lmotor_P = 0;
+  29   3          Lmotor_N = 1;
+  30   3          Rmotor_P = 1;
+  31   3          Rmotor_N = 0;        // LEFT MOVE
+  32   3          }
+  33   2          else if(Left_S == 0 && Right_S == 0 && Front_S == 1)
+  34   2          {
+  35   3          Lmotor_P = 0;
+  36   3          Lmotor_N = 1;
+  37   3          Rmotor_P = 0;
+  38   3          Rmotor_N = 1;        // ROBOT Back
+  39   3          }
+  40   2          else
+  41   2          {
+  42   3          Lmotor_P = 1;
+  43   3          Lmotor_N = 0;
+  44   3          Rmotor_P = 1;
+  45   3          Rmotor_N = 0;   // forward
+  46   3          }
+  47   2         }
+  48   1       }
+  49           
+  50           
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     69    ----
+C51 COMPILER V9.60.7.0   SIMPLE_ROBO                                                       07/04/2024 18:30:33 PAGE 2   
+
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

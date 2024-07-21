@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\simple_robo.obj" 
+TO ".\Objects\Board" 
+PRINT(".\Listings\Board.m51")

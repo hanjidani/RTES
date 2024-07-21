@@ -1,0 +1,200 @@
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+A debugging session is active.
+
+	Inferior 1 [process 15846] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+A debugging session is active.
+
+	Inferior 1 [process 15896] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+Iteration at line 17
+i = 2
+n = 25
+flag = 0
+input = 
+checkPrime(2) = 1
+checkPrime(23) = 1
+
+Program received signal SIGINT, Interrupt.
+0x00007ffff7d147e2 in __GI___libc_read (fd=0, buf=0x5555555596b0, nbytes=1024) at ../sysdeps/unix/sysv/linux/read.c:26
+26	../sysdeps/unix/sysv/linux/read.c: No such file or directory.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+Iteration at line 17
+i = 2
+n = 25
+flag = 0
+input = 
+checkPrime(2) = 1
+checkPrime(23) = 1
+[Inferior 1 (process 16203) exited normally]
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:24
+24	int main() {
+Iteration at line 17
+i = 2
+n = 2
+debug.gdb:37: Error in sourced command file:
+No symbol "flag" in current context.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:24
+24	int main() {
+Iteration at line 17
+i = 2
+n = 2
+debug.gdb:37: Error in sourced command file:
+No symbol "flag" in current context.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:24
+24	int main() {
+Iteration at line 17
+i = 2
+n = 2
+debug.gdb:37: Error in sourced command file:
+No symbol "flag" in current context.
+warning: Currently logging to gdb.txt.  Turn the logging off and on to make the new setting effective.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at PrimeSum.c:5
+5	int main() {
+Iteration at line 17
+i = 3
+n = 100
+flag = 0
+input = 
+checkPrime(3) = 1
+checkPrime(97) = 1
+Iteration at line 17
+i = 11
+n = 100
+flag = 1
+input = yes
+checkPrime(11) = 1
+checkPrime(89) = 1
+Iteration at line 17
+i = 17
+n = 100
+flag = 1
+input = yes
+checkPrime(17) = 1
+checkPrime(83) = 1
+Iteration at line 17
+i = 21
+n = 100
+flag = 1
+input = yes
+checkPrime(21) = 0
+checkPrime(79) = 1
+Iteration at line 17
+i = 27
+n = 100
+flag = 1
+input = yes
+checkPrime(27) = 0
+checkPrime(73) = 1
+Iteration at line 17
+i = 29
+n = 100
+flag = 1
+input = yes
+checkPrime(29) = 1
+checkPrime(71) = 1
+Iteration at line 17
+i = 33
+n = 100
+flag = 1
+input = yes
+checkPrime(33) = 0
+checkPrime(67) = 1
+Iteration at line 17
+i = 39
+n = 100
+flag = 1
+input = yes
+checkPrime(39) = 0
+checkPrime(61) = 1
+Iteration at line 17
+i = 41
+n = 100
+flag = 1
+input = yes
+checkPrime(41) = 1
+checkPrime(59) = 1
+Iteration at line 17
+i = 47
+n = 100
+flag = 1
+input = yes
+checkPrime(47) = 1
+checkPrime(53) = 1
+[Inferior 1 (process 6805) exited normally]
+Quit
+Quit
+Quit
+Quit
+Quit
+Quit
+Undefined command: "Quit".  Try "help".

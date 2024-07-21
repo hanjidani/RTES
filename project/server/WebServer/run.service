@@ -1,0 +1,10 @@
+[Unit]
+Description=Web Server
+
+[Service]
+ExecStart=./home/hosein/Emb/project/server/WebServer/build/WebServer
+WorkingDirectory=/home/hosein/Emb/project/server/WebServer/build
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=Run scrape_news.py at startup
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/bin/scrape_news.py
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=Login to 2net on startup
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/login_to_2net.sh
+Restart=on-failure
+User=<your_username>
+
+[Install]
+WantedBy=multi-user.target
